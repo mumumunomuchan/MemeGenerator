@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme</title>
+    <link rel="stylesheet" href="meme.css">
+ </head>
+<body>
+ <div class="allForms">
+  <div class="title">
+    <h2>I CAN HAZ MEMEZ????</h2>
+    <p>Fill out the form to start creating memes!</p>
+ </div>  
+ <form>
+    <div class="forms">
+       
+        <div class="input">
+
+            <label for="image" class="info">Image URL</label>  <input type="url" class="form-control" id="image" placeholder="what's the URL for your image" required>
+        </div> 
+    </div>
+    <div class="forms">
+        <label for="text_top" class="info">Text On Top</label>
+        <div class="input">
+            <input type="text" class="form-control" id="text_top">
+        </div>
+    </div>
+    <div class="forms">
+        <label for="text_bottom" class="info">Text On Bottom</label>
+        <div class="input">
+            <input type="text" class="form-control" id="text_bottom">
+        </div>
+    </div>
+    <div class="forms">
+        <div class="btn">
+            <button type="submit" class="btn btn-prima">Add Meme</button>
+         </div>
+    </div>
+ </form> 
+ </div>
+ <div class="container">
+    <div class="row">
+    </div>
+ </div> 
+ <script src="meme.js"></script>
+</body>
+</html>
